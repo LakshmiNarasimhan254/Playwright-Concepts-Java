@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.mln.ContextTracing" time="2.978" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\laksh\git\Playwright-Java\target\test-classes;C:\Users\laksh\git\Playwright-Java\target\classes;C:\Users\laksh\.m2\repository\com\microsoft\playwright\playwright\1.31.0\playwright-1.31.0.jar;C:\Users\laksh\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\laksh\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\laksh\.m2\repository\com\microsoft\playwright\driver\1.31.0\driver-1.31.0.jar;C:\Users\laksh\.m2\repository\com\microsoft\playwright\driver-bundle\1.31.0\driver-bundle-1.31.0.jar;C:\Users\laksh\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\laksh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\laksh\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\laksh\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\laksh\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\laksh\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\laksh\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16\bin"/>
+    <property name="sun.java.command" value="C:\Users\laksh\AppData\Local\Temp\surefire194953087079151673\surefirebooter-20230328164622683_3.jar C:\Users\laksh\AppData\Local\Temp\surefire194953087079151673 2023-03-28T16-46-22_448-jvmRun1 surefire-20230328164622683_1tmp surefire_0-20230328164622683_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="org.mln.ContextTracing.java"/>
+    <property name="surefire.test.class.path" value="C:\Users\laksh\git\Playwright-Java\target\test-classes;C:\Users\laksh\git\Playwright-Java\target\classes;C:\Users\laksh\.m2\repository\com\microsoft\playwright\playwright\1.31.0\playwright-1.31.0.jar;C:\Users\laksh\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\laksh\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\laksh\.m2\repository\com\microsoft\playwright\driver\1.31.0\driver-1.31.0.jar;C:\Users\laksh\.m2\repository\com\microsoft\playwright\driver-bundle\1.31.0\driver-bundle-1.31.0.jar;C:\Users\laksh\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\laksh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\laksh\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\laksh\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\laksh\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\laksh\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\laksh\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\laksh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.16"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\laksh\git\Playwright-Java"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\laksh\AppData\Local\Temp\surefire194953087079151673\surefirebooter-20230328164622683_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16+11-LTS-199"/>
+    <property name="user.name" value="laksh"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\laksh\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\laksh\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="user.dir" value="C:\Users\laksh\git\Playwright-Java"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\My Folder\Srinath\Learnings\Python\Scripts\;C:\My Folder\Srinath\Learnings\Python\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.16\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.8.5\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Groovy\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\KubeCtl;C:\Program Files\Kubernetes\Minikube;C:\Users\laksh\AppData\Local\Android\Sdk\platform-tools;C:\Users\laksh\AppData\Local\Android\Sdk\tools\bin;C:\Users\laksh\AppData\Local\Android\Sdk\tools;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\laksh\AppData\Local\Microsoft\WindowsApps;C:\Users\laksh\AppData\Roaming\npm;C:\Users\laksh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\laksh\AppData\Local\GitHubDesktop\bin;C:\Users\laksh;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\bin;;PLAYWRIGHT_JAVA_SRC;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16+11-LTS-199"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="learnContextTracing on learnContextTracing(org.mln.ContextTracing)" classname="org.mln.ContextTracing" time="2.39">
+    <failure message="Source location specified in PLAYWRIGHT_JAVA_SRC doesn&apos;t exist: &apos;C:\Users\laksh\git\src\test\java&apos;" type="com.microsoft.playwright.PlaywrightException"><![CDATA[com.microsoft.playwright.PlaywrightException: Source location specified in PLAYWRIGHT_JAVA_SRC doesn't exist: 'C:\Users\laksh\git\src\test\java'
+	at com.microsoft.playwright.impl.StackTraceCollector.createFromEnv(StackTraceCollector.java:49)
+	at com.microsoft.playwright.impl.Connection.<init>(Connection.java:101)
+	at com.microsoft.playwright.impl.Connection.<init>(Connection.java:90)
+	at com.microsoft.playwright.impl.PlaywrightImpl.createImpl(PlaywrightImpl.java:51)
+	at com.microsoft.playwright.impl.PlaywrightImpl.create(PlaywrightImpl.java:35)
+	at com.microsoft.playwright.Playwright.create(Playwright.java:110)
+	at com.microsoft.playwright.Playwright.create(Playwright.java:114)
+	at org.mln.ContextTracing.learnContextTracing(ContextTracing.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:71)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:56)
+	at org.testng.TestRunner$1.run(TestRunner.java:679)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:885)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:708)
+	at org.testng.TestRunner.run(TestRunner.java:599)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+</testsuite>

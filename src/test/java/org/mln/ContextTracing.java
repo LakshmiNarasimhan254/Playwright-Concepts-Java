@@ -21,7 +21,7 @@ public class ContextTracing {
                 new Tracing.StartOptions()
                         .setScreenshots(true)
                         .setSnapshots(true)
-                        .setSources(false));
+                        .setSources(true));
 
 
         Page page = browserContext.newPage();

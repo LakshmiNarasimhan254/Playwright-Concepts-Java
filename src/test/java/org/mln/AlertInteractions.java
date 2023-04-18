@@ -1,7 +1,6 @@
 package org.mln;
 
 import com.microsoft.playwright.*;
-import com.microsoft.playwright.options.SelectOption;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
