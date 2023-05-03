@@ -23,6 +23,7 @@ public class OtherLocatorStrategy {
        Assert.assertTrue(page.url().equalsIgnoreCase("https://letcode.in/buttons") );
        page.locator("button:has-text('Home')").first().click();
        page.locator("nav :text('Product')").click();
+       page.pause();
        System.out.println(
                page.locator("//div[@class='buttons']//a").locator("nth=0").textContent());
         System.out.println(
